@@ -1,0 +1,105 @@
+body{
+    background: #f5f2ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background: #6f42c1 !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.nav-link:hover{
+    color: #ffe082 !important;
+}
+
+
+.card{
+    background: #f8f4ff;
+    border: 1px solid #d8c8f3;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(94,85,145,0.25);
+    padding: 30px;
+}
+
+
+h2{
+    color: #6f42c1;
+    font-weight: bold;
+}
+
+
+label{
+    font-weight: 600;
+    color: #5b4b8a;
+    margin-bottom: 5px;
+}
+
+
+.form-control{
+    border-radius: 10px;
+    border: 1px solid #c9b7f5;
+    padding: 10px;
+}
+
+.form-control:focus{
+    border-color: #6f42c1;
+    box-shadow: 0 0 8px rgba(111,66,193,0.3);
+}
+
+
+.btn-primary{
+    background: #6f42c1;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background: #5b35a8;
+}
+
+
+.table{
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(94,85,145,0.15);
+}
+
+.table thead{
+    background: #6f42c1;
+    color: white;
+}
+
+.table th,
+.table td{
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px;
+}
+
+.table-striped tbody tr:nth-of-type(odd){
+    background: #f4efff;
+}
+
+.table-hover tbody tr:hover{
+    background: #ece2ff;
+}
+
+
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
